@@ -1,0 +1,32 @@
+root {
+    --gradient: linear-gradient(
+        49deg,
+        #fef4ff,
+        #e5ecee,
+        #e5ecee,
+        #c3ddf3,
+        #acc7f6,
+        #a1b9f9,
+        #d6c3ec,
+        #e1dffc,
+        #dadbfc,
+        #caccf4,
+        #cdacde
+    );
+}
+
+@keyframes bg-animation {
+    0% {
+        background-position: left;
+    }
+    100% {
+        background-position: right;
+    }
+}
+
+html {
+    scroll-behavior: smooth;
+    background-image: var(--gradient);
+    background-size: 300%;
+    animation: bg-animation 20s infinite alternate;
+}

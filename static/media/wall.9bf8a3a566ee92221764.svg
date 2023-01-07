@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+    xmlns:ns1="http://sozi.baierouge.fr"
+    xmlns:cc="http://web.resource.org/cc/"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    viewBox="0 0 1732 1736"
+  >
+  <path
+      style="fill:#010101"
+      d="m0 0v1736h1732v-1736h-1732z"
+  />
+  <path
+      style="fill:#ff4f7e"
+      d="m26 30v1h264l-24-1h-54-186z"
+  />
+  <path
+      style="fill:#ffa1ba"
+      d="m290 30v94h1v-65l-1-29z"
+  />
+  <path
+      style="fill:#ff4f7e"
+      d="m342 30v93h1v-92h339v92h1v-93h-341m405 0v1h340v92h-340v1h341v-94h-341m397 0v94h341v-94h-341m408 0v94h147v-1h-146v-92h146c-11.5-4.807-31.5-1-44-1h-103z"
+  />
+  <path
+      style="fill:#ffe6ed"
+      d="m1699 30v94h1v-65l-1-29z"
+  />
+  <path
+      style="fill:#ff0145"
+      d="m26 31v92h264v-92h-264m317 0v92h339v-92h-339m404 0v92h340v-92h-340m398 0v92h339v-92h-339m408 0v92h146v-92h-146z"
+  />
+  <path
+      style="fill:#ff4f7e"
+      d="m26 123v1h264l-24-1h-54-186z"
+  />
+  <path
+      style="fill:#ffe6ed"
+      d="m224 162v1h342l-31-1h-69-242z"
+  />
+  <path
+      style="fill:#ffa1ba"
+      d="m26 163v1h147c-11.46-4.81-31.53-1-44-1h-103z"
+  />
+  <path
+      style="fill:#ff6e95"
+      d="m224 163v199h342v-1h-341v-139-40l-1-19z"
+  />
+  <path
+      style="fill:#ff0145"
+      d="m225 163v198h341v-198h-341z"
+  />
+  <path
+      style="fill:#ffa1ba"
+      d="m629 163v1h341l-31-1h-69-241z"
+  />
+  <path
+      style="fill:#ffe6ed"
+      d="m970 163v200h1v-141-40l-1-19z"
+  />
+  <path
+      style="fill:#ffa1ba"
+      d="m1026 163v1h341l-31-1h-69-241z"
+  />
+  <path
+      style="fill:#ffe6ed"
+      d="m1367 163v200h1v-141-40l-1-19z"
+  />
+  <path
+      style="fill:#ffa1ba"
+      d="m1434 163v200h265v-1h-264v-198h264l-24-1h-54-187z"
+  />
+  <path
+      style="fill:#ffe6ed"
+      d="m1699 163v200h1v-141-40l-1-19z"
+  />
+  <path
+      style="fill:#ff0145"
+      d="m26 164v198h146v-198h-146z"
+  />
+  <path
+      style="fill:#ff4f7e"
+      d="m172 164v198h1v-139-40l-1-19z"
+  />
+  <path
+      style="fill:#ff6e95"
+      d="m629 164v198h1v-139-40l-1-19z"
+  />
+  <path
+      style="fill:#ff0145"
+      d="m630 164v198h340v-198h-340z"
+  />
+  <path
+      style="fill:#ff6e95"
+      d="m1026 164v198h1v-139-40l-1-19z"
+  />
+  <path
+      style="fill:#ff0145"
+      d="m1027 164v198h340v-198h-340m408 0v198h264v-198h-264z"
+  />
+  <path
+      style="fill:#ffa1ba"
+      d="m26 362v1h147c-11.46-4.81-31.53-1-44-1h-103m603 0v1h341l-31-1h-69-241m397 0v1h341l-31-1h-69-241z"
+  />
+  <path
+      style="fill:#ff0145"
+      d="m26 410v198h264v-198h-264z"
+  />
+  <path
+      style="fill:#ffa1ba"
+      d="m290 410v199h1v-140-40l-1-19z"
+  />
+  <path
+      style="fill:#ff4f7e"
+      d="m342 410v198h1v-139-40l-1-19z"
+  />
+  <path
+      style="fill:#ff0145"
+      d="m343 410v198h340v-198h-340m404 0v198h340v-198h-340z"
+  />
+  <path
+      style="fill:#ff4f7e"
+      d="m1087 410v198h-340v1h341v-140-40l-1-19z"
+  />
+  <path
+      style="fill:#ff0145"
+      d="m1144 410v198h341v-198h-341z"
+  />
+  <path
+      style="fill:#ff4f7e"
+      d="m1552 410v199h147v-1h-146v-139-40l-1-19z"
+  />
+  <path
+      style="fill:#ff0145"
+      d="m1553 410v198h146v-198h-146z"
+  />
+  <path
+      style="fill:#ffe6ed"
+      d="m1699 410v199h1v-140-40l-1-19z"
+  />
+  <path
+      style="fill:#ff4f7e"
+      d="m26 608v1h264l-24-1h-54-186m1118 0v1h341l-31-1h-69-241z"
+  />
+  <path
+      style="fill:#ffa1ba"
+      d="m26 648v1h147c-11.46-4.81-31.53-1-44-1h-103m198 0v199h342v-1h-341v-197h341l-31-1h-69-242m405 0v1h341l-31-1h-69-241z"
+  />
+  <path
+      style="fill:#ffe6ed"
+      d="m970 648v199h1v-140-40l-1-19z"
+  />
+  <path
+      style="fill:#ffa1ba"
+      d="m1026 648v199h341v-1h-340v-197h340l-31-1h-69-241z"
+  />
+  <path
+      style="fill:#ffe6ed"
+      d="m1367 648v199h1v-140-40l-1-19z"
+  />
+  <path
+      style="fill:#ffa1ba"
+      d="m1434 648v199h265v-1h-264v-197h264l-24-1h-54-187z"
+  />
+  <path
+      style="fill:#ffe6ed"
+      d="m1699 648v199h1v-140-40l-1-19z"
+  />
+  <path
+      style="fill:#ff0145"
+      d="m26 649v197h146v-197h-146z"
+  />
+  <path
+      style="fill:#ff4f7e"
+      d="m172 649v197h1v-138-40l-1-19z"
+  />
+  <path
+      style="fill:#ff0145"
+      d="m225 649v197h341v-197h-341z"
+  />
+  <path
+      style="fill:#ff6e95"
+      d="m629 649v197h1v-138-40l-1-19z"
+  />
+  <path
+      style="fill:#ff0145"
+      d="m630 649v197h340v-197h-340m397 0v197h340v-197h-340m408 0v197h264v-197h-264z"
+  />
+  <path
+      style="fill:#ffa1ba"
+      d="m26 846v1h147c-11.46-4.81-31.53-1-44-1h-103m603 0v1h341l-31-1h-69-241z"
+  />
+  <path
+      style="fill:#ffe6ed"
+      d="m26 884v1h265l-24-1h-54-187z"
+  />
+  <path
+      style="fill:#ff4f7e"
+      d="m342 884v199h341v-1h-340v-139-40l-1-19z"
+  />
+  <path
+      style="fill:#ff0145"
+      d="m343 884v198h340v-198h-340z"
+  />
+  <path
+      style="fill:#ffe6ed"
+      d="m747 884v1h341l-31-1h-69-241m397 0v1h341l-31-1h-69-241m408 0v1h147v198c5-11.9 1-33 1-46v-106-34c0-3.15 1.2-9.74-1.6-11.97-2.4-1.94-7.5-1.03-10.4-1.03h-28-108z"
+  />
+  <path
+      style="fill:#ff0145"
+      d="m26 885v197h264v-197h-264z"
+  />
+  <path
+      style="fill:#ffa1ba"
+      d="m290 885v198h1v-139-40l-1-19z"
+  />
+  <path
+      style="fill:#ff0145"
+      d="m747 885v197h340v-197h-340z"
+  />
+  <path
+      style="fill:#ff4f7e"
+      d="m1087 885v197h-340v1h341v-139-40l-1-19m57 0v198h341v-198h-1v197h-339v-139-39l-1-19z"
+  />
+  <path
+      style="fill:#ff0145"
+      d="m1145 885v197h339v-197h-339z"
+  />
+  <path
+      style="fill:#ff4f7e"
+      d="m1552 885v198h147v-1h-146v-138-40l-1-19z"
+  />
+  <path
+      style="fill:#ff0145"
+      d="m1553 885v197h146v-197h-146z"
+  />
+  <path
+      style="fill:#ff4f7e"
+      d="m26 1082v1h264l-24-1h-54-186z"
+  />
+  <path
+      style="fill:#ffa1ba"
+      d="m26 1122v1h147c-11.46-4.8-31.53-1-44-1h-103m198 0v199h1v-198h341l-31-1h-69-242m405 0v1h341l-31-1h-69-241z"
+  />
+  <path
+      style="fill:#ffe6ed"
+      d="m970 1122v199h-341v1h252 65c5.47 0 18.99 2.5 23.4-1 2.82-2.3 1.6-8.8 1.6-12v-34-107c0-13 4.01-34.1-1-46z"
+  />
+  <path
+      style="fill:#ffa1ba"
+      d="m1026 1122v1h341l-31-1h-69-241z"
+  />
+  <path
+      style="fill:#ffe6ed"
+      d="m1367 1122v199h-341v1h342v-141-40l-1-19z"
+  />
+  <path
+      style="fill:#ffa1ba"
+      d="m1434 1122v199h1v-198h264l-24-1h-54-187z"
+  />
+  <path
+      style="fill:#ffe6ed"
+      d="m1699 1122v199h-265v1h195 51c4.5 0 14.7 1.9 18.4-1 2.8-2.3 1.6-8.8 1.6-12v-34-107c0-13 4-34.1-1-46z"
+  />
+  <path
+      style="fill:#ff0145"
+      d="m26 1123v198h146v-198h-146z"
+  />
+  <path
+      style="fill:#ff4f7e"
+      d="m172 1123v198h1v-139-40l-1-19z"
+  />
+  <path
+      style="fill:#ff0145"
+      d="m225 1123v198h341v-198h-341z"
+  />
+  <path
+      style="fill:#ff6e95"
+      d="m629 1123v198h1v-139-40l-1-19z"
+  />
+  <path
+      style="fill:#ff0145"
+      d="m630 1123v198h340v-198h-340z"
+  />
+  <path
+      style="fill:#ff6e95"
+      d="m1026 1123v198h1v-139-40l-1-19z"
+  />
+  <path
+      style="fill:#ff0145"
+      d="m1027 1123v198h340v-198h-340m408 0v198h264v-198h-264z"
+  />
+  <path
+      style="fill:#ffe6ed"
+      d="m26 1321v1h147c-11.46-4.8-31.53-1-44-1h-103m198 0v1h342l-31-1h-69-242m-198 48v1h265l-24-1h-54-187z"
+  />
+  <path
+      style="fill:#ff4f7e"
+      d="m342 1369v198h1v-139-40l-1-19z"
+  />
+  <path
+      style="fill:#ff0145"
+      d="m343 1369v198h339v-198h-339z"
+  />
+  <path
+      style="fill:#ff4f7e"
+      d="m682 1369v198h1v-139-40l-1-19z"
+  />
+  <path
+      style="fill:#ffe6ed"
+      d="m747 1369v1h341l-31-1h-69-241m397 0v1h341l-31-1h-69-241m408 0v1h147v198c5-11.9 1-33 1-46v-106-34c0-3.2 1.2-9.7-1.6-12-2.4-1.9-7.5-1-10.4-1h-28-108z"
+  />
+  <path
+      style="fill:#ff0145"
+      d="m26 1370v197h264v-197h-264z"
+  />
+  <path
+      style="fill:#ffa1ba"
+      d="m290 1370v198h1v-139-40l-1-19z"
+  />
+  <path
+      style="fill:#ff0145"
+      d="m747 1370v197h340v-197h-340z"
+  />
+  <path
+      style="fill:#ff4f7e"
+      d="m1087 1370v197h1v-138-40l-1-19m57 0v197h1v-138-40l-1-19z"
+  />
+  <path
+      style="fill:#ff0145"
+      d="m1145 1370v197h339v-197h-339z"
+  />
+  <path
+      style="fill:#ff4f7e"
+      d="m1484 1370v197h1v-138-40l-1-19m68 0v197h1v-138-40l-1-19z"
+  />
+  <path
+      style="fill:#ff0145"
+      d="m1553 1370v197h146v-197h-146z"
+  />
+  <path
+      style="fill:#ff6e95"
+      d="m26 1567v1h264l-24-1h-54-186m316 0v1h341l-31-1h-69-241m405 0v1h341l-31-1h-69-241m397 0v1h341l-31-1h-69-241m408 0v1h147c-11.5-4.8-31.5-1-44-1h-103z"
+  />
+  <path
+      style="fill:#ffa1ba"
+      d="m26 1607v1h147c-11.46-4.8-31.53-1-44-1h-103m198 0v94h1v-93h341l-31-1h-69-242m405 0v1h341l-31-1h-69-241z"
+  />
+  <path
+      style="fill:#ffe6ed"
+      d="m970 1607v94h1v-65l-1-29z"
+  />
+  <path
+      style="fill:#ffa1ba"
+      d="m1026 1607v1h341l-31-1h-69-241z"
+  />
+  <path
+      style="fill:#ffe6ed"
+      d="m1367 1607v94h1v-65l-1-29m66 0v94h1v-65l-1-29z"
+  />
+  <path
+      style="fill:#ffa1ba"
+      d="m1434 1607v1h265l-24-1h-54-187z"
+  />
+  <path
+      style="fill:#ffe6ed"
+      d="m1699 1607v94h1v-65l-1-29z"
+  />
+  <path
+      style="fill:#ff0145"
+      d="m26 1608v93h146v-93h-146z"
+  />
+  <path
+      style="fill:#ff4f7e"
+      d="m172 1608v93h1v-64l-1-29z"
+  />
+  <path
+      style="fill:#ff0145"
+      d="m225 1608v93h341v-93h-341z"
+  />
+  <path
+      style="fill:#ff6e95"
+      d="m629 1608v93h1v-64l-1-29z"
+  />
+  <path
+      style="fill:#ff0145"
+      d="m630 1608v93h340v-93h-340z"
+  />
+  <path
+      style="fill:#ff6e95"
+      d="m1026 1608v93h1v-64l-1-29z"
+  />
+  <path
+      style="fill:#ff0145"
+      d="m1027 1608v93h340v-93h-340m407 0v93h265v-93h-265z"
+  />
+  <metadata
+    >
+    <rdf:RDF
+      >
+      <cc:Work
+        >
+        <dc:format
+          >image/svg+xml</dc:format
+        >
+        <dc:type
+            rdf:resource="http://purl.org/dc/dcmitype/StillImage"
+        />
+        <cc:license
+            rdf:resource="http://creativecommons.org/licenses/publicdomain/"
+        />
+        <dc:publisher
+          >
+          <cc:Agent
+              rdf:about="http://openclipart.org/"
+            >
+            <dc:title
+              >Openclipart</dc:title
+            >
+          </cc:Agent
+          >
+        </dc:publisher
+        >
+      </cc:Work
+      >
+      <cc:License
+          rdf:about="http://creativecommons.org/licenses/publicdomain/"
+        >
+        <cc:permits
+            rdf:resource="http://creativecommons.org/ns#Reproduction"
+        />
+        <cc:permits
+            rdf:resource="http://creativecommons.org/ns#Distribution"
+        />
+        <cc:permits
+            rdf:resource="http://creativecommons.org/ns#DerivativeWorks"
+        />
+      </cc:License
+      >
+    </rdf:RDF
+    >
+  </metadata
+  >
+</svg
+>

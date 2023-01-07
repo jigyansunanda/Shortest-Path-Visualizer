@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Shortest-Path-Visualizer/static/css/main.3a6ed400.css",
+    "main.js": "/Shortest-Path-Visualizer/static/js/main.bb55b341.js",
+    "static/media/algoinfo.gif": "/Shortest-Path-Visualizer/static/media/algoinfo.7afb3100946069b444c8.gif",
+    "static/media/createWall.gif": "/Shortest-Path-Visualizer/static/media/createWall.c4252ae641f37e62db37.gif",
+    "static/media/move.gif": "/Shortest-Path-Visualizer/static/media/move.dbd8f5b1a85dc71a1395.gif",
+    "static/media/wall.png": "/Shortest-Path-Visualizer/static/media/wall.709e3cef7b1ac8ef3f11.png",
+    "static/media/destination.png": "/Shortest-Path-Visualizer/static/media/destination.a8cace97a6042f5be1b2.png",
+    "static/media/icon.png": "/Shortest-Path-Visualizer/static/media/icon.0d2dff9580ae975a4258.png",
+    "static/media/wall.svg": "/Shortest-Path-Visualizer/static/media/wall.9bf8a3a566ee92221764.svg",
+    "static/media/destination.svg": "/Shortest-Path-Visualizer/static/media/destination.5fc20a848963e5190184.svg",
+    "index.html": "/Shortest-Path-Visualizer/index.html",
+    "static/media/source.svg": "/Shortest-Path-Visualizer/static/media/source.0182bc1da8709989c149.svg",
+    "main.3a6ed400.css.map": "/Shortest-Path-Visualizer/static/css/main.3a6ed400.css.map",
+    "main.bb55b341.js.map": "/Shortest-Path-Visualizer/static/js/main.bb55b341.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3a6ed400.css",
+    "static/js/main.bb55b341.js"
+  ]
+}
