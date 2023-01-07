@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Shortest-Path-Visualizer/static/css/main.3a6ed400.css",
-    "main.js": "/Shortest-Path-Visualizer/static/js/main.66e0b578.js",
+    "main.css": "/Shortest-Path-Visualizer/static/css/main.2ea167fa.css",
+    "main.js": "/Shortest-Path-Visualizer/static/js/main.68d93629.js",
     "static/media/algoinfo.gif": "/Shortest-Path-Visualizer/static/media/algoinfo.7afb3100946069b444c8.gif",
     "static/media/createWall.gif": "/Shortest-Path-Visualizer/static/media/createWall.c4252ae641f37e62db37.gif",
     "static/media/move.gif": "/Shortest-Path-Visualizer/static/media/move.dbd8f5b1a85dc71a1395.gif",
@@ -12,11 +12,11 @@
     "static/media/destination.svg": "/Shortest-Path-Visualizer/static/media/destination.5fc20a848963e5190184.svg",
     "index.html": "/Shortest-Path-Visualizer/index.html",
     "static/media/source.svg": "/Shortest-Path-Visualizer/static/media/source.0182bc1da8709989c149.svg",
-    "main.3a6ed400.css.map": "/Shortest-Path-Visualizer/static/css/main.3a6ed400.css.map",
-    "main.66e0b578.js.map": "/Shortest-Path-Visualizer/static/js/main.66e0b578.js.map"
+    "main.2ea167fa.css.map": "/Shortest-Path-Visualizer/static/css/main.2ea167fa.css.map",
+    "main.68d93629.js.map": "/Shortest-Path-Visualizer/static/js/main.68d93629.js.map"
   },
   "entrypoints": [
-    "static/css/main.3a6ed400.css",
-    "static/js/main.66e0b578.js"
+    "static/css/main.2ea167fa.css",
+    "static/js/main.68d93629.js"
   ]
 }
