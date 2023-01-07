@@ -1,0 +1,20 @@
+.links {
+    color: #ffb26b;
+    font-family: "Roboto Flex", sans-serif;
+    font-weight: 600;
+}
+
+.links:hover {
+    color: #7fffd4;
+}
+
+code {
+    color: #fffbac;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+strong {
+    /* color: #7fffd4; */
+    color: #2dcddf;
+}

@@ -1,0 +1,516 @@
+:root {
+    --gradient1: linear-gradient(
+        49deg,
+        #fef4ff,
+        #e5ecee,
+        #e5ecee,
+        #c3ddf3,
+        #acc7f6,
+        #a1b9f9,
+        #d6c3ec,
+        #e1dffc,
+        #dadbfc,
+        #caccf4,
+        #cdacde
+    );
+    --gradient2: linear-gradient(119deg, #52ab93, #d3a450, #a15090);
+    --gradient3: linear-gradient(49deg, #ab4da3, #52ab93, #d3a450);
+    --app-header-gradient: linear-gradient(45deg, #fcea41, #f048c6);
+    --gradient4: linear-gradient(45deg, #86c8bc, #deedc1, #cfdfd8);
+    --gradient5: linear-gradient(45deg, #86c8bc, #fcea41);
+    --gradient6: linear-gradient(
+        119deg,
+        cyan,
+        #52ab93,
+        #d3a450,
+        #a15090,
+        #c6388e
+    );
+    --node-border: #7f8b90;
+    --node-background: #d4d4d4;
+    /* --visited: #519872; */
+    /* --path: #ecb365; */
+    --visited: #863a6f;
+    --path: #ffbf00;
+    /* --path: #54b435; */
+}
+
+/* #f048c6 */
+
+@keyframes bg-animation {
+    0% {
+        background-position: left;
+    }
+    100% {
+        background-position: right;
+    }
+}
+
+@keyframes nodeAnimation {
+    0% {
+        transform: scale(0.3);
+    }
+
+    50% {
+        transform: scale(1.2);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes visitedAnimation {
+    0% {
+        transform: scale(0.3);
+        background-color: rgba(17, 104, 217, 0.75);
+        border-radius: 100%;
+    }
+
+    50% {
+        transform: scale(0.5);
+        background-color: rgba(0, 217, 159, 0.75);
+    }
+
+    65% {
+        transform: scale(0.7);
+        background-color: coral;
+    }
+
+    100% {
+        transform: scale(1);
+        background-color: var(--visited);
+    }
+}
+
+@keyframes wallAnimation {
+    0% {
+        transform: scale(0.3);
+        background-color: rgb(12, 53, 71);
+    }
+
+    50% {
+        transform: scale(1.2);
+        background-color: rgb(12, 53, 71);
+    }
+
+    100% {
+        transform: scale(1);
+        background-color: black;
+    }
+}
+
+@keyframes shortestPathAnimation {
+    0% {
+        transform: scale(0.3);
+        background-color: #ffbf00;
+    }
+
+    50% {
+        transform: scale(1.2);
+        /* background-color: #82cd47; */
+        background-color: #b3ffae;
+    }
+
+    100% {
+        transform: scale(1);
+        background-color: #71c431;
+    }
+}
+
+/* node styling begins */
+
+.node {
+    color: black;
+    width: 90px;
+    height: 30px;
+    font-size: 9px;
+    background-color: var(--node-background);
+    border: 0.5px solid var(--node-border);
+    text-align: center;
+    margin: auto;
+    /* font-family: "Roboto Flex", sans-serif; */
+}
+
+.weight-value {
+    margin-top: 20%;
+}
+
+.source-node {
+    background-color: #263159;
+    font-size: 0px;
+    background-image: url(/src/images/source.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    animation-name: nodeAnimation;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    animation-delay: 0;
+    animation-direction: alternate;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+}
+
+.destination-node {
+    background-color: #263159;
+    font-size: 0px;
+    background-image: url(/src/images/destination.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    animation-name: nodeAnimation;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    animation-delay: 0;
+    animation-direction: alternate;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+}
+
+.wall-node {
+    background-color: black;
+    border-color: black;
+    font-size: 0px;
+    background-image: url(/src/images/wall.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    animation-name: wallAnimation;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    animation-delay: 0;
+    animation-direction: alternate;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+}
+
+.node-visited {
+    width: 90px;
+    height: 30px;
+    font-size: 9px;
+    background-color: var(--visited);
+    border: 0.5px solid var(--node-border);
+    text-align: center;
+    margin: auto;
+    animation-name: visitedAnimation;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    animation-delay: 0;
+    animation-direction: alternate;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+    color: var(--node-background);
+}
+
+.node-shortest-path {
+    color: black;
+    width: 90px;
+    height: 30px;
+    font-size: 9px;
+    font-weight: 600;
+    background-color: var(--path);
+    border: 0.5px solid var(--node-border);
+    text-align: center;
+    margin: auto;
+    animation-name: shortestPathAnimation;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-delay: 0;
+    animation-direction: alternate;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+}
+
+/* Board styling begins */
+
+.board {
+    background-color: #263159;
+}
+
+.full-grid {
+    margin: 1% 0% auto 0%;
+    max-width: 100%;
+    background-color: #263159;
+}
+
+.rows {
+    display: flex;
+}
+
+.complete-navbar {
+    background-color: #263159;
+    margin-top: 0%;
+    margin-bottom: 1%;
+    padding-top: 0%;
+    padding-bottom: 0px;
+    font-weight: 800;
+    justify-content: center;
+}
+
+.app-header {
+    background-image: var(--app-header-gradient);
+    background-clip: text;
+    color: transparent;
+    background-size: 200%;
+    animation: bg-animation 5s infinite alternate;
+    font-size: 50px;
+    font-weight: 700;
+    margin-top: 0%;
+    margin-bottom: 1.2%;
+    justify-content: center;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    font-family: "Roboto Flex", sans-serif;
+}
+
+.app-name {
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-top: 0%;
+    user-select: none;
+    justify-content: center;
+}
+
+.path-length {
+    background-color: #263159;
+}
+
+.shortest-path-result {
+    text-align: center;
+    margin-bottom: 2%;
+    /* color: #00e7ff; */
+    color: #2dcddf;
+    /* font-family: "Roboto Flex", sans-serif; */
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 1.5rem;
+}
+
+.not-selectable {
+    user-select: none;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.nav-link {
+    color: whitesmoke;
+}
+
+.btn {
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+.grad-text {
+    font-size: 1rem;
+    font-weight: 800;
+    font-family: "Roboto Flex", sans-serif;
+}
+
+.a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: "Roboto Flex", sans-serif;
+}
+
+.navbar-content {
+    font-size: 15px;
+    color: #fec260;
+    font-family: "Roboto Flex", sans-serif;
+}
+
+.btn:hover {
+    background-color: #fec260;
+    color: black;
+    box-shadow: 0px 5px 0px black;
+}
+
+.dropdown {
+    background-color: #86c8bc;
+    color: black;
+    border-radius: 8px;
+    box-shadow: 0px 7px 0px black;
+    font-family: "Roboto Flex", sans-serif;
+}
+
+.dropdown:hover {
+    border-radius: 8px;
+}
+
+.dropdown-toggle {
+    background-color: #86c8bc;
+    color: black;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: "Roboto Flex", sans-serif;
+}
+
+.dropdown-toggle:hover {
+    background-color: #e56e67;
+    color: black;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: "Roboto Flex", sans-serif;
+}
+
+.dropdown-menu-light {
+    background-color: #227c70;
+    color: whitesmoke;
+    font-family: "Roboto Flex", sans-serif;
+}
+
+.dropdown-item {
+    font-weight: 600;
+    color: whitesmoke;
+    font-family: "Roboto Flex", sans-serif;
+}
+.dropdown-item:hover {
+    background-color: #fec260;
+    font-family: "Roboto Flex", sans-serif;
+}
+
+.v-btn {
+    margin-left: 20px;
+}
+
+/* Modal Element Styling */
+
+element.style {
+    border-bottom-width: 0px;
+    padding-bottom: 0px;
+}
+
+.modal-content {
+    background-color: #253339;
+    /* background-color: #263159; */
+    color: #c1cacd;
+    /* color: #cdd4d6; */
+    font-family: "Roboto Flex", sans-serif;
+}
+
+/* .modal-header {
+    background-color: #1f1f1f;
+} */
+
+.modal-title {
+    /* color: #a91079; */
+    background-image: var(--gradient1);
+    background-clip: text;
+    color: transparent;
+    background-size: 300%;
+    animation: bg-animation 5s infinite alternate;
+    font-family: "Roboto Flex", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 0;
+    user-select: none;
+}
+
+.close-btn {
+    background-color: rgb(240, 229, 75);
+    border: 1px solid black;
+    color: black;
+    font-family: "Roboto Flex", sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.close-btn:hover {
+    border: 1px solid black;
+    background-color: #d52a2a;
+    color: whitesmoke;
+    box-shadow: 0px 5px 0px black;
+}
+.btn-close {
+    visibility: hidden;
+}
+.nav-tabs .nav-link:hover {
+    /* background-color: #d3d2d2; */
+    font-family: "Roboto Flex", sans-serif;
+    font-weight: 700;
+    color: #d52ac7;
+}
+.nav-tabs .nav-link {
+    font-family: "Roboto Flex", sans-serif;
+    font-weight: 700;
+    color: rgb(136, 133, 133);
+}
+.nav-tabs .nav-link.active {
+    background-color: white;
+    font-family: "Roboto Flex", sans-serif;
+    font-weight: 700;
+    color: black;
+}
+
+.board#blur.active {
+    filter: blur(20px);
+    pointer-events: none;
+    user-select: none;
+}
+
+.tut-nav-btn {
+    border: 1px solid black;
+    margin-left: 0.3em;
+    font-weight: 700;
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+    background-color: #fec260;
+    color: black;
+    /* box-shadow: 0px 5px 0px black; */
+}
+
+.tut-nav-btn:disabled {
+    border: 1px solid black;
+    background-color: #fec260;
+    color: black;
+}
+
+.tut-nav-btn:hover {
+    background-color: #f5af3e;
+    border: 1px solid black;
+    box-shadow: 0px 5px 0px black;
+}
+
+.skip-btn {
+    border: 1px solid black;
+    background-color: #e56e67;
+    color: black;
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.skip-btn:hover {
+    border: 1px solid black;
+    background-color: #d52a2a;
+    color: whitesmoke;
+    box-shadow: 0px 5px 0px black;
+}
+
+.modal-page-id {
+    color: black;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.spfv {
+    color: whitesmoke;
+    font-weight: 600;
+}
+
+.spff {
+    background-image: var(--gradient5);
+    background-clip: text;
+    color: transparent;
+    background-size: 200%;
+    animation: bg-animation 3s infinite alternate;
+    font-weight: 600;
+}

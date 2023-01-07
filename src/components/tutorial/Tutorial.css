@@ -1,0 +1,124 @@
+#tut-modal .modal-content {
+    background-color: rgb(227, 226, 226);
+    user-select: none;
+    border: 5px solid #263159;
+    height: 65vh;
+}
+
+.welcome {
+    color: #227c70;
+    font-family: "Roboto Flex", sans-serif;
+    font-size: 45px;
+    text-align: center;
+    font-weight: 700;
+}
+
+h3 {
+    text-align: center;
+    /* font-family: "Roboto Flex", sans-serif; */
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    color: #263159;
+    font-weight: 600;
+    margin-top: 3%;
+}
+
+.modal1 {
+    text-align: center;
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    color: #263159;
+    margin-top: 3%;
+}
+
+span {
+    color: #d52a2a;
+    font-weight: 700;
+}
+
+.app-icon {
+    align-content: center;
+    height: 240px;
+    width: 250px;
+    margin: auto;
+    display: flex;
+}
+
+.modal2 {
+    color: #227c70;
+    font-size: 35px;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 6%;
+}
+
+.modal2-p {
+    color: black;
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.card-title {
+    text-align: center;
+    color: black;
+    font-size: 15px;
+}
+
+.modal2-div2 {
+    margin-top: 2%;
+    text-align: center;
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.node-icons-1 {
+    width: 200px;
+    height: 200px;
+}
+.node-icons-2 {
+    width: 160px;
+    height: 160px;
+}
+.node-icons-3 {
+    width: 140px;
+    height: 140px;
+}
+
+.modal3 {
+    color: #227c70;
+    font-size: 35px;
+    font-family: "Roboto Flex", sans-serif;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 2%;
+}
+
+.modal3-p {
+    color: black;
+    font-family: "Roboto Flex", sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    text-align: center;
+}
+
+.create-wall {
+    width: 400px;
+    height: 300px;
+    display: flex;
+    margin: auto;
+}
+.move {
+    width: 400px;
+    height: 300px;
+    display: flex;
+    margin: auto;
+}
+.algo-info {
+    width: 720px;
+    height: 350px;
+    display: flex;
+    margin: auto;
+    margin-top: 4%;
+}
