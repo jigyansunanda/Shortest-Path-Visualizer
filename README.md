@@ -1,70 +1,20 @@
-# Getting Started with Create React App
+# Shortest Path Visualizer
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome !!! This is a tool to help you visualize how the algorithms, used for solving Shortest Path Problem, work.
 
-## Available Scripts
+[![](https://github.com/jigyansunanda/Shortest-Path-Visualizer/blob/main/resources/icon.png)](https://jigyansunanda.github.io/Shortest-Path-Visualizer/)
 
-In the project directory, you can run:
+### [Visit Live Application](https://jigyansunanda.github.io/Shortest-Path-Visualizer/)
 
-### `npm start`
+## What is the Shortest Path Problem ?
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The shortest path problem in graph theory, is a [Combinatorial Optimization](https://en.wikipedia.org/wiki/Combinatorial_optimization) problem. The problem requires one to find a path between a source and a destination, such that travelling through the found path, costs the least. For the sake of problem-solving, this problem is interesting enough to try and solve. However, what makes this, one of the most-studied combinatorial optimization problem is the real life scenarios, that deal with this problem, as their primary application or as a subproblem of their primary application. Below are a few examples of such real life scenarios: 
+  - Finding Shortest Path between two places in applications like GPS-enabled Google Maps, Waze. 
+  - Used in IP routing. IP routing uses [Open Shortest Path First (OSPF)](https://en.wikipedia.org/wiki/Open_Shortest_Path_First) routing protocol, that uses a shortest path problem solving algorithm named as Dijkstra's algorithm. 
+  - Communication Networks use shortest path problem solving algorithms to minimize network wide cost and regulate network traffic flows.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Over the time, [various algorithms](https://en.wikipedia.org/wiki/Shortest_path_problem#Algorithms) has been conceived to solve the shortest path problem. These algorithms both have their own advantages and disadvantages depending on the applications, they are used in. Here, however, only few of them has been implemented for visualization. These are: 
+  1. BFS(Breadth First Search) 
+  2. Dijkstra's Algorithm 
+  3. Bellman Ford Algorithm 
+  4. Floyd Warshall Algorithm
