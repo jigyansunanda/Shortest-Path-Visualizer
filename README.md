@@ -18,3 +18,7 @@ Over the time, [various algorithms](https://en.wikipedia.org/wiki/Shortest_path_
   2. Dijkstra's Algorithm 
   3. Bellman Ford Algorithm 
   4. Floyd Warshall Algorithm
+
+### Meet The Algorithms
+
+<img src="https://github.com/jigyansunanda/Shortest-Path-Visualizer/blob/main/resources/algoinfo.gif" height="70%" width="100%">
