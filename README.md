@@ -2,9 +2,9 @@
 
 Welcome !!! This is a tool to help you visualize how the algorithms, used for solving Shortest Path Problem, work.
 
-[![](https://github.com/jigyansunanda/Shortest-Path-Visualizer/blob/main/resources/icon.png)](https://jigyansunanda.github.io/Shortest-Path-Visualizer/)
+<img src="https://github.com/jigyansunanda/Shortest-Path-Visualizer/blob/main/resources/icon.png" width="150" height="150" />
 
-### [Visit Live Application](https://jigyansunanda.github.io/Shortest-Path-Visualizer/)
+## [Visit Live Application](https://jigyansunanda.github.io/Shortest-Path-Visualizer/)
 
 ## What is the Shortest Path Problem ?
 
