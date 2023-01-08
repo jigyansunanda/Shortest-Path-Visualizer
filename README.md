@@ -4,7 +4,7 @@ Welcome !!! This is a tool to help you visualize how the algorithms, used for so
 
 <img src="https://github.com/jigyansunanda/Shortest-Path-Visualizer/blob/main/resources/icon.png" width="150" height="150" />
 
-## [Visit Live Application](https://jigyansunanda.github.io/Shortest-Path-Visualizer/)
+## :point_right: [Visit Live Application](https://jigyansunanda.github.io/Shortest-Path-Visualizer/)
 
 ## What is the Shortest Path Problem ?
 
